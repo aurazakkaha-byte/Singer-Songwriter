@@ -1,35 +1,73 @@
-<!-- CONTACT CARD -->
-<div class="contact-card">
-  <h4 class="serif">Arni</h4>
-  <div class="role-title">Booking Contact · Road Manager · Media Relations · Social Media Manager</div>
-
-  <div class="contact-row">
-    <i class="fa-solid fa-location-dot"></i>
-    <div>
-      <strong>Alamat Korespondensi:</strong><br>
-      Komplek Gria Jakarta Jl. Sawo Blok C3 No.17 Pamulang Barat, Tangerang Selatan 15417
+<!-- CONTACT ME SECTION -->
+  <section id="contact" style="background: var(--card-subtle);">
+    <div class="section-head">
+      <div class="section-eyebrow">Informasi Manajemen & Pemesanan</div>
+      <h2 class="section-title serif">Contact Me</h2>
+      <div class="section-divider"></div>
     </div>
-  </div>
 
-  <div class="contact-row">
-    <i class="fa-solid fa-phone"></i>
-    <div>
-      <strong>Telepon / WhatsApp:</strong><br>
-      <a href="tel:+6285921046326" style="color: var(--text-main); text-decoration: none;">+62 859 2104 6326</a>
+    <div class="contact-grid">
+      <!-- Info Card -->
+      <div class="contact-card">
+        <h4 class="serif">Arni</h4>
+        <div class="role-title">Booking Contact · Road Manager · Media Relations · Social Media Manager</div>
+
+        <div class="contact-row">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <strong>Alamat Korespondensi:</strong><br>
+            Komplek Gria Jakarta Jl. Sawo Blok C3 No.17 Pamulang Barat, Tangerang Selatan 15417
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <strong>Telepon / WhatsApp:</strong><br>
+            <a href="tel:+6285921046326" style="color: var(--text-main); text-decoration: none;">+62 859 2104 6326</a>
+          </div>
+        </div>
+
+        <div class="contact-row">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <strong>Email Resmi:</strong><br>
+            <a href="mailto:aurazakkahateam@gmail.com" style="color: var(--text-main); text-decoration: none;">aurazakkahateam@gmail.com</a>
+          </div>
+        </div>
+
+        <div style="margin-top: 30px;">
+          <a href="https://wa.me/6285921046326?text=Halo%20Arni,%20saya%20ingin%20mengajukan%20undangan%20tampil%20/%20kolaborasi%20untuk%20Aura%20Zakkaha" target="_blank" class="btn btn-primary" style="width: 100%;">
+            <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp Manajemen Langsung
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Inquiry Form -->
+      <div class="contact-card">
+        <h4 class="serif">Kirimkan Undangan Acara</h4>
+        <div class="role-title">Pesan Singkat & Permohonan Jadwal</div>
+        
+        <form onsubmit="handleContactSubmit(event)">
+          <div style="margin-bottom: 16px;">
+            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; text-transform: uppercase;">Nama Penyelenggara / Klien</label>
+            <input type="text" id="clientName" required placeholder="Contoh: PT Astra / BEM Universitas" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); font-family: inherit;">
+          </div>
+
+          <div style="margin-bottom: 16px;">
+            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; text-transform: uppercase;">Jenis Acara & Tanggal</label>
+            <input type="text" id="eventDetail" required placeholder="Contoh: Pensi Musik / Wedding, 25 November 2026" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); font-family: inherit;">
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <label style="display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 6px; text-transform: uppercase;">Pesan / Catatan Khusus</label>
+            <textarea id="eventNotes" rows="3" placeholder="Tuliskan format pengiring (band/minus one) atau detail lokasi..." style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); font-family: inherit;"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <i class="fa-solid fa-paper-plane"></i> Format & Kirim ke WhatsApp
+          </button>
+        </form>
+      </div>
     </div>
-  </div>
-
-  <div class="contact-row">
-    <i class="fa-solid fa-envelope"></i>
-    <div>
-      <strong>Email Resmi:</strong><br>
-      <a href="mailto:aurazakkahateam@gmail.com" style="color: var(--text-main); text-decoration: none;">aurazakkahateam@gmail.com</a>
-    </div>
-  </div>
-
-  <div style="margin-top: 30px;">
-    <a href="https://wa.me/6285921046326?text=Halo%20Arni,%20saya%20ingin%20mengajukan%20undangan%20tampil%20/%20kolaborasi%20untuk%20Aura%20Zakkaha" target="_blank" class="btn btn-primary" style="width: 100%;">
-      <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp Manajemen Langsung
-    </a>
-  </div>
-</div>
+  </section>

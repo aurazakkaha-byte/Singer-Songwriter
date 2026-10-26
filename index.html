@@ -71,18 +71,3 @@
       </div>
     </div>
   </section>
-<!-- SCRIPT -->
-  <script>
-    // ... kode pencarian achievement ...
-
-    // Direct WhatsApp Form
-    function handleContactSubmit(e) {
-      e.preventDefault();
-      const name = document.getElementById('clientName').value;
-      const event = document.getElementById('eventDetail').value;
-      const notes = document.getElementById('eventNotes').value;
-
-      const message = `Halo Arni, saya ${name}.%0A%0ASaya ingin mengajukan permohonan tampil / penawaran acara untuk Aura Zakkaha:%0A- Acara & Waktu: ${event}%0A- Catatan: ${notes || '-'}`;
-      window.open(`https://wa.me/6285921046326?text=${message}`, '_blank');
-    }
-  </script>
